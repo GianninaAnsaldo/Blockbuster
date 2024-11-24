@@ -5,7 +5,7 @@
   <h1>Peliculas</h1>
   <%= link_to "Nueva Pelicula", new_movie_path, class: "btn btn-primary" %>
   
-  <div id="movies">
+  <div class="py-2" id="movies">
     <div class="row mt-3">
       <% @movies.each do |movie| %>
         <%= render movie %>
